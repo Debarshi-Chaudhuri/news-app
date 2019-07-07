@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  
+  height: 80px;
+}
+
+.App-header {
+  background-color:rgba(56, 202, 221, 0.925);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.Size{
+  font-size: 10px;
+  color: blue;
+}
+.container{
+  overflow:hidden;
+  height:90px;
+  min-width: 130px;
+  max-width: 130px;
+  border: 1px solid #ddd;
+  padding: 3px;
+  background: url(plain-white-background.jpg) 50% no-repeat;
+}
